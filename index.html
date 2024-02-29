@@ -6,8 +6,64 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body>
+  <body class="p-2">
     <!-- Example code. Need remove first -->
-    <h1 class="text-3xl font-bold underline">Hello</h1>
+    <h1 class="bg-yellow-300 text-xl font-bold text-center">
+      My blog about my life
+    </h1>
+
+    <main class="grid grid-cols-6 pt-2">
+      <section class="pl-2">
+        <h2 class="text-lg font-medium pb-3">Menu</h2>
+        <div class="flex flex-col text-blue-800 underline underline-offset-1">
+          <a href="">Today</a>
+          <a href="">Yesterday</a>
+          <a href="">Last week</a>
+          <a href="">Archives</a>
+        </div>
+      </section>
+
+      <section class="col-span-4 pl-2 border-l-2 border-green-600">
+        <h2 class="text-lg font-medium pb-3">Meeting with supervisor</h2>
+
+        <p class="pb-2">14 Dec 2011</p>
+        <p class="pb-2">Today I went ti the university by bus.</p>
+        <p class="pb-2">I had a met with my PhD supervisor.</p>
+
+        <h2 class="text-lg font-medium pb-3">New car!!!</h2>
+        <p class="pb-2">12 Dec 2011</p>
+        <p class="pb-2">
+          Today I bought my new car. It's a Honda Accord and it's really nice.
+        </p>
+        <p class="pb-2">I met some friends at a pub.</p>
+
+        <h2 class="text-lg font-medium pb-3">Visit my parents</h2>
+        <p class="pb-2">10 Dec 2011</p>
+        <p class="pb-2">
+          Tried to contact my PhS supervisor. He was out of his coffee.
+        </p>
+        <p class="pb-2">
+          I visited my parents and we had a nice dinner together.
+        </p>
+      </section>
+
+      <section
+        class="pr-4 text-right border-dotted border-4 border-green-500 h-32"
+      >
+        <h2 class="text-lg font-medium pb-3">Last posts</h2>
+        <div class="flex flex-col text-blue-800 underline underline-offset-1">
+          <a href="">Meeting with supervisor.</a>
+          <a href="">New car!!!</a>
+          <a href="">Visit my parents</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="flex justify-center pt-4">
+      <p>Contact me:</p>
+      <a href="" class="text-blue-800 underline underline-offset-1"
+        >bobo@gmail.com</a
+      >
+    </footer>
   </body>
 </html>
