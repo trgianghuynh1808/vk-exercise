@@ -13,6 +13,7 @@
 - Bò đã setup sẵn TailWindCSS trong file `index.html`, vợ chỉ cần sử dụng các class CSS của TailWind và code HTML thôi.
 - Về focus style ở tùng input dùng TailWind.
 - Trong hình bò đã để gợi ý. Vợ vừa làm vừa để ý cách làm nhá. Các yêu cầu của đề là chuẩn chung để tạo nên 1 Form có UX tốt á.
+- Ý số 4 trong hình đoạn Tab là sử dụng tab index nha vợ, ck ghi nhầm hí hí
 
 ## Link
 
