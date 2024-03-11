@@ -1,0 +1,17 @@
+{
+  "name": "vk-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:1": "jest question1/test.js",
+    "test:2": "jest question2/test.js",
+    "test:3": "jest question3/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
