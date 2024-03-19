@@ -15,6 +15,11 @@
 
 function convertHoursToMinutes(hours, minutes) {
   // Viết logic xử lý tại đây
+  if (minutes) {
+    return hours === undefined ? minutes : hours * 60 + minutes;
+  } else {
+    return hours * 60;
+  }
 }
 
 module.exports = convertHoursToMinutes;

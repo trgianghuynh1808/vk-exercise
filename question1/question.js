@@ -12,6 +12,15 @@
 
 function sumArr(arr) {
   // Viết logic xử lý tại đây
+  if (arr !== undefined) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+    return sum;
+  } else {
+    return 0;
+  }
 }
 
 module.exports = sumArr;
