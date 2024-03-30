@@ -18,6 +18,19 @@
 
 function largestSwapArr(arr1, arr2) {
   // Viết logic xử lý tại đây
+
+  if (arr1.length === 0 || arr2.length === 0) {
+    return [arr1, arr2];
+  }
+  const max1 = Math.max(...arr1);
+  const max2 = Math.max(...arr2);
+  const maxIndex1 = arr1.findIndex((item) => item === max1);
+  const maxIndex2 = arr2.findIndex((item) => item === max2);
+  const newArr1 = [...arr1];
+  const newArr2 = [...arr2];
+  newArr1[maxIndex1] = max2;
+  newArr2[maxIndex2] = max1;
+  return [newArr1, newArr2];
 }
 
 module.exports = largestSwapArr;

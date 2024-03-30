@@ -16,6 +16,9 @@
 
 function largestSwap(number) {
   // Viết logic xử lý tại đây
+  const convertNumber = number.toString();
+  const [first, second] = convertNumber;
+  return parseInt(second) <= parseInt(first) ? true : false;
 }
 
 module.exports = largestSwap;

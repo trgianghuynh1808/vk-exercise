@@ -21,6 +21,19 @@
 
 function canNest(arr1, arr2) {
   // Viết logic xử lý tại đây
+  if (arr1.length > 0 && arr2.length > 0) {
+    if (
+      Math.min(...arr1) >= Math.min(...arr2) &&
+      Math.max(...arr1) <= Math.max(...arr2)
+    ) {
+      return true;
+    }
+    return false;
+  } else if (arr1.length === 0 && arr2.length > 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 module.exports = canNest;
