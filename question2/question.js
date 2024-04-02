@@ -21,6 +21,9 @@
 
 function sortDrinkByPrice(drinks) {
   // Viết logic xử lý tại đây
+  return drinks.sort((a, b) => {
+    return a.price - b.price;
+  });
 }
 
 module.exports = sortDrinkByPrice;

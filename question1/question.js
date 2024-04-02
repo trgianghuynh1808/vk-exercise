@@ -19,6 +19,10 @@
 
 function tuckInArray(arr1, ...restArr) {
   // Viết logic xử lý tại đây
+  const middleNum = Math.ceil(arr1.length / 2);
+  const newArr2 = restArr.flat();
+  arr1.splice(middleNum, 0, ...newArr2);
+  return arr1;
 }
 
 module.exports = tuckInArray;

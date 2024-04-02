@@ -16,6 +16,7 @@
 
 function countPotatoes(str) {
   // Viết logic xử lý tại đây
+  return str.split("potato").length - 1;
 }
 
 module.exports = countPotatoes;
