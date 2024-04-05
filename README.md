@@ -8,3 +8,4 @@
 4. Javascript (Day 2): `4-javascript`
 5. Javascript (Day 3): `5-javascript`
 6. Javascript (Day 4): `6-javascript`
+7. Javascript (Day 5): `7-javascript`
