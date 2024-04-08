@@ -15,6 +15,8 @@
 
 function reverseStr() {
   // Viết logic xử lý tại đây
+  const result = (str) => [...str].reverse().join("");
+  return result;
 }
 
 module.exports = reverseStr;

@@ -18,6 +18,7 @@
 
 function possibleBonus(tile1, expect) {
   // Viết logic xử lý tại đây
+  return tile1 + 6 >= expect ? true : false;
 }
 
 module.exports = possibleBonus;
